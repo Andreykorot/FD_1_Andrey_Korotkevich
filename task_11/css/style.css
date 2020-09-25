@@ -1,22 +1,5 @@
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-::-webkit-scrollbar-button {
-    display: none;
-}
-::-webkit-scrollbar-track-piece {
-    background-color: #ffffff;
-}
-::-webkit-scrollbar-thumb {
-    height: 50px;
-    background-color: #666;
-    border-radius: 30px;
-}
 body {
     margin: 0;
-    padding: 0;
-    max-width: 100%;
 }
 .table {
     display: flex;
@@ -29,10 +12,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
     background: #fff;
     color: gray;
-
 }
 .tr {
     display: flex;
@@ -53,21 +35,20 @@ body {
 .td:last-child {
     justify-content: flex-end;
 }
-.btn_blue {
-    background: #0404e0;
+.btns .btn_blue,
+.btns .btn_red {
     color: #fff;
     padding: 7px 15px;
-    margin-right: 5px;
     border: none;
-    border-radius: 3px;
     cursor: pointer;
+    border-radius: 3px;
+}
+.btn_blue {
+    background: #0404e0;
+    margin-right: 5px;
 }
 .btn_red {
     background: red;
-    color: #fff;
-    padding: 7px 15px;
-    border: none;
-    border-radius: 3px;
 }
 footer {
     position: fixed;

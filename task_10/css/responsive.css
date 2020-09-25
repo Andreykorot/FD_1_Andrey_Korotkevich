@@ -1,0 +1,156 @@
+@media (max-width: 1200px) {
+	.desc_items {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.desc_item {
+		width: 40%;
+		margin-top: 15px;
+	}
+}
+@media (max-width: 1039px) {
+	.team_items {
+		flex-wrap: wrap;
+	}
+	.team_item {
+		width: 50%;
+	}
+	.team_item:last-child {
+		margin-top: 30px;
+	}
+}
+@media (max-width: 810px) {
+	.header {
+		position: absolute;
+	}
+	.header_menu {
+		display: none;
+	}
+	.mob_menu_icon {
+		display: block;
+		z-index: 4;
+	}
+	.mob_menu_icon {
+		position: absolute;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		top: 50px;
+		right: 15px;
+		height: 30px;
+		width: 30px;
+		cursor: pointer;
+		z-index: 3;
+	}
+	.mob_menu_icon a {
+		width: 100%;
+	}
+	.mob_menu_icon span {
+		background: orange;
+		height: 5px;
+		width: 30px;
+		margin-bottom: 5px;
+	}
+	.mob_menu_icon div:last-child {
+		margin-bottom: 0;
+	}
+	.mob_menu {
+		display: none;
+	}
+	.mob_menu:target {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		background: orange;
+		z-index: 4;
+	}
+	.mob_menu__list {
+		font-size: 45px;
+		text-align: center;
+		padding: 25px 0;
+	}
+	.mob_menu__list li {
+		list-style: none;
+		margin-bottom: 10px;
+	}
+	.mob_menu__list li:last-child {
+		margin-bottom: 0;
+	}
+	.mob_menu__list a {
+		text-decoration: none;
+		color: #fff;
+	}
+	.close {
+		position: absolute;
+		top: 0;
+		right: 15px;
+		cursor: pointer;
+		color: #fff;
+		font-size: 24px;
+	}
+	.mob_menu a.close {
+		display: block;
+		text-decoration: none;
+	}
+	.main_block {
+    	background-position: 50% 0;
+	}
+	.copyright {
+		font-size: 18px;
+	}
+}
+@media (max-width: 737px) {
+	.desc_item {
+		width: 100%;
+	}
+	.team_item {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.team_item:last-child {
+		margin: 0;
+	}
+}
+@media (max-width: 540px) {
+	.copyright {
+		font-size: 15px;
+	}
+}
+@media (max-width: 545px) {
+	.main_block_wrap {
+		font-size: 30px;
+	}
+	.main_block_item {
+		width: 100%;
+	}
+	.main_block_item:first-child {
+		width: 100%;
+		margin-left: 0;
+		padding: 0 15px;
+	}
+	.main_block_item:last-child {
+		width: 100%;
+		padding: 0 15px;
+	}
+	.title span {
+		font-size: 30px;
+	}
+	.team_img {
+		height: 250px;
+		width: 250px;
+	}
+	.form_group {
+		flex-direction: column;
+	}
+	.btn_orange {
+		margin: 0 auto;
+	}
+	.copyright {
+		font-size: 12px;
+		text-align: center;
+	}
+}

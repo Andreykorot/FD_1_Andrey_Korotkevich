@@ -1,0 +1,122 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-button {
+    display: none;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #666;
+    border-radius: 30px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    padding: 52px 0 39px 0;
+}
+.thead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    color: gray;
+
+}
+.tr {
+    display: flex;
+}
+.tr:nth-child(even) {
+    background: lightgray;
+}
+.td {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 30px;
+    padding: 10px 15px;
+    border-top: 1px solid #80808096;
+    border-bottom: 1px solid #80808096;
+}
+.td:last-child {
+    justify-content: flex-end;
+}
+.btn_blue {
+    background: #0404e0;
+    color: #fff;
+    padding: 7px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn_red {
+    background: red;
+    color: #fff;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 3px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #80808096;
+}
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.foot_status {
+    display: flex;
+    color: #000;
+}
+.records {
+    margin-right: 10px;
+}
+.pagination {
+    display: flex;
+    cursor: pointer;
+}
+.pagination a {
+    text-decoration: none;
+    color: lightgray;
+    width: 30px;
+    border-radius: 3px;
+    text-align: center;
+}
+.pagination a:hover {
+    background: lightgray;
+    color: #000;
+}
+.pagination i {
+    font-size: 14px;
+    vertical-align: baseline;
+}
+
+/*Responsive*/
+
+@media (max-width: 700px) {
+    .pagination a {
+        width: 25px;
+    }
+    .foot_status {
+        font-size: 15px
+    }
+}

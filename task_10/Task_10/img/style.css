@@ -1,0 +1,171 @@
+ .orange{
+    color: #FBA929;
+    letter-spacing: 1px;
+    
+}
+.image{
+    float: left;
+    height: 50px;
+    width: 40px;
+    padding-right: 10px;
+    
+}
+.head_text{
+    font-size: 20px;
+}
+
+.img1{
+    background-image: url(./img/sprite.png);
+    background-position: 1px 4px;
+    width: 30px;
+    height: 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+   
+
+}
+.img2{
+    background-image: url(./img/sprite.png);
+    background-position: -26px 4px;
+    width: 18px;
+    height: 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  
+}
+
+.img3{
+    background-image: url(./img/sprite.png);
+    background-position: -40.9px 7px;
+    width: 29.2px;
+    height: 45px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.img4{
+    background-image: url(./img/sprite.png);
+    background-position: -69px 7px;
+    width: 29.2px;
+    height: 45px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+.img5{
+    background-image: url(./img/sprite.png);
+    background-position: -101.5px 7px;
+    width: 35px;
+    height: 45px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+
+.main1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2px 40px;
+} 
+.icons{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.head_rabbit{
+    flex-wrap: nowrap;
+    display: flex;}
+
+    .text_orange{
+        background-image: url(./img/big-orange-bg.png);
+        border: solid#FBA929  ;
+        display: block;
+        max-width: 100%;
+        height: auto; 
+        
+    }
+ 
+       .flex_text1{
+        display: flex;
+        flex-direction:column-reverse;
+        text-align: center;
+      }
+      .left1 {
+        position: absolute;
+
+        top: 240px;
+        left: 6%;
+        background-color: #000;
+        color: #FBA929;
+        font-size: 290%;
+      }
+      
+      .left2 {
+        position: absolute;
+        
+        top: 180px;
+        left: 6%;
+        background-color: #FBA929;
+        color: #000;
+        font-size: 290%;
+      } 
+      
+      
+         @media (max-width: 768px) {
+            .flex_text1 {
+              font-size: 60%;
+              top: 100px;
+          }}
+          @media (max-width: 380px) {
+            .flex_text1 {
+              font-size: 30%;
+              top: 100px;
+          } }
+
+      
+    
+         
+        .container {
+            display: inline-flex;
+            flex-direction:row;
+            
+          }
+          
+          /* Классы для каждого размера колонок. */
+          
+          /* .col_1 {
+           flex: 1;
+           width: 300px;
+          }
+          
+          .col_2 {
+           flex: 2;
+           width: 25%;
+           
+          }
+          .col_3 {
+            flex: 3;
+            width: 25%;
+           }
+           .col_4 {
+               width: 25%;
+            flex: 4;
+           }
+           */
+           .meet{
+               color: coral;
+               text-align: center;
+               text-decoration:underline;
+           }
+           .rabbit1{background-image: url(./img/imgonline-com-ua-Resize-XgHjYq80EICku3.png);
+            width: 220px;
+            height: 220px;
+            cursor: pointer;
+            background-color: orange;
+            border-radius: 120px;
+            border:solid orange;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+           }
+         

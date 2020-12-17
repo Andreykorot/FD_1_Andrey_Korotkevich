@@ -1,1 +1,1 @@
-[XSLT](https://www.w3schools.com/xml/xsl_if.asp) - **Учебник по XSLT.** Позваляет последовательно ознакомиться с конструкциями XSLT 1.0;
+[XSLT](https://www.w3schools.com/xml/xsl_if.asp) - **Учебник по XSLT.** Позваляет последовательно ознакомиться с конструкциями XSLT 1.0; 
